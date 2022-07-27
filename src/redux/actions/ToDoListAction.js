@@ -1,4 +1,5 @@
 import {
+  ADD_EMPLOYEE,
   add_task,
   check_completed,
   delete_task,
@@ -22,3 +23,8 @@ export const editTaskAction = (task) => ({
   type: edit_task,
   task,
 });
+
+export const addEmployeeAction = (employee) => ({
+  type:ADD_EMPLOYEE,
+  employee
+})

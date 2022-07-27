@@ -4,13 +4,15 @@ import UserProfile from "./components/UserProfile";
 import DemoJss from "./JSS_StyledComponents/DemoJSS/DemoJss";
 import ToDoList from "./JSS_StyledComponents/BaiTapToDoList/ToDoList";
 import DemoHooks from "./Hooks/DemoHooks";
+import ToDoAppHook from "./Hooks/ToDoAppHook";
 
 function App() {
   return (
     <div className="App">
       {/* <DemoJss /> */}
       {/* <ToDoList /> */}
-      <DemoHooks />
+      {/* <DemoHooks /> */}
+      <ToDoAppHook />
     </div>
   );
 }
