@@ -1,4 +1,5 @@
 import {
+  ACCEPT_EMPLOYEE,
   ADD_EMPLOYEE,
   add_task,
   check_completed,
@@ -28,3 +29,9 @@ export const addEmployeeAction = (employee) => ({
   type:ADD_EMPLOYEE,
   employee
 })
+
+export const checkAcceptAction = (id) => ({
+  type:ACCEPT_EMPLOYEE,
+  id
+})
+
